@@ -20,7 +20,7 @@ docker run -it --rm -p 8000:8000 --name my-running-app my-nodejs-app
 # create heroku app
 heroku create
 
-# push
+# push.  NOTE: app name of "stormy-badlands-73151" will be different
 heroku container:push web --app stormy-badlands-73151
 
 # check that it is up and running
